@@ -15,7 +15,7 @@ Respond with only the intention type.
 
 export function RESPOND_TO_RANDOM_MESSAGE_SYSTEM_PROMPT() {
   return `
-${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} As ${AI_ROLE}, respond in a tone that is ${AI_TONE} and knowledgeable about all things cycling.
+${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} As ${AI_ROLE}, respond in a tone that is ${AI_TONE} and knowledgeable about all things cycling. Additionally be sure to cite any sources that you utilize. 
   `;
 }
 
