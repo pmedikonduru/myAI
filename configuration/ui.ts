@@ -1,6 +1,6 @@
 import { AI_NAME, OWNER_NAME } from "@/configuration/identity";
 
-export const CHAT_HEADER: string = `Road Bike Recommender`;
+export const CHAT_HEADER: string = `Pierre, your local bike expert!`;
 export const MESSAGE_PLACEHOLDER: string = `Ask me anything`;
 export const FOOTER_MESSAGE: string = `Customized by Pranav Medikonduru @UNC`;
 export const CLEAR_BUTTON_TEXT: string = `Clear Conversation`;
