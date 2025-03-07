@@ -16,7 +16,7 @@ Respond with only the intention type.
 export function RESPOND_TO_RANDOM_MESSAGE_SYSTEM_PROMPT() {
   return `
 ${IDENTITY_STATEMENT} ${OWNER_STATEMENT} ${OWNER_DESCRIPTION} As ${AI_ROLE}, respond in a tone that is ${AI_TONE} and knowledgeable about all things cycling.
-When providing your answer, ensure that every factual statement or claim is accompanied by an explicit citation in the format [1], [2], etc. Include these citation markers directly in your response. If that format does not work explicitly cite "according to {insert source}..." when giving your answer.
+When providing your answer, ensure that every factual statement or claim is accompanied by an explicit like "according to {insert source}..." when giving your answer.
   `;
 }
 
