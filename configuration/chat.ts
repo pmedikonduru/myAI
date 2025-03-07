@@ -1,7 +1,7 @@
 import { OWNER_NAME, AI_NAME } from "./identity";
 
-export const INITIAL_MESSAGE: string = `Hello, I'm ${AI_NAME}, your local cycling expert Ask me anything about road cycling, the Tour de France, and anything in between.`;
-export const DEFAULT_RESPONSE_MESSAGE: string = `Sorry, I'm having trouble generating a response. Please try again later.`;
-export const WORD_CUTOFF: number = 8000; // Number of words until bot says it needs a break
-export const WORD_BREAK_MESSAGE: string = `[WORD BREAK MESSAGE]`;
-export const HISTORY_CONTEXT_LENGTH: number = 7; // Number of messages to use for context when generating a response
+export const INITIAL_MESSAGE: string = `Hello, I'm ${AI_NAME}, your personal cycling guide! Born from a passion for the open road and the thrill of the Tour de France, I'm here to help you with everything from bike recommendations to race insights.`;
+export const DEFAULT_RESPONSE_MESSAGE: string = `Oops, I seem to have taken a wrong turn. Please try again later.`;
+export const WORD_CUTOFF: number = 8000;
+export const WORD_BREAK_MESSAGE: string = `[Need a breather – too many words!]`;
+export const HISTORY_CONTEXT_LENGTH: number = 7;
